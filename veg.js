@@ -14,6 +14,7 @@ function makedough(allo , callback){
 
     },500)
 };
+
 function makeallokulcha(allo,dough,callback){
     setTimeout(()=>{
         const kulcha = allo + dough +"🥪";
