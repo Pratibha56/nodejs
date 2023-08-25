@@ -16,7 +16,8 @@ function App() {
 
   <div className='img1'>
   {data.map((item)=>{
-    return<ImageCard title={item.title} imgurl={item.imgurl} desc={item.desc}/>
+    
+      return<ImageCard title={item.title} imgurl={item.imgurl} desc={item.desc}/>
   }
   )}
  </div>
