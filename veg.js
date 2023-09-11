@@ -26,6 +26,7 @@ function makeallokulcha(allo,dough,callback){
 
 
 getallo((allo)=>{
+    
     makedough(allo,(dough)=>{
         makeallokulcha(allo,dough,(kulcha)=>{
             console.log("kulcha is served");
